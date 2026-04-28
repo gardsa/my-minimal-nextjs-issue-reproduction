@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=apps/my-app",
+    "dev": "npm run dev --workspace=apps/my-app"
+  }
+}
