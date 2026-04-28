@@ -2,7 +2,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@scope/shared-lib/*": ["./libs/shared-lib/src/*"]
-    }
+      "@scope/shared-lib/*": ["libs/shared-lib/src/*"]
+    },
+    "moduleResolution": "bundler",
+    "target": "es2015",
+    "module": "esnext",
+    "skipLibCheck": true
   }
 }

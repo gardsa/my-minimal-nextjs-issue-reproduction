@@ -1,1 +1,1 @@
-export { foo } from "./foo";
+export const hello = 'hello world';
